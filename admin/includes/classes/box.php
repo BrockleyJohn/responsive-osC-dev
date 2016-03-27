@@ -25,10 +25,6 @@
 
   class box extends tableBlock {
 		function __construct() {
-		  $this->box();
-		} 
-
-    function box() {
       $this->heading = array();
       $this->contents = array();
     } 
