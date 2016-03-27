@@ -15,6 +15,10 @@
     var $_user_id;
     var $_user_name;
 
+    function __construct($module, $user_id = null, $user_name = null) {
+		  $this->actionRecorder($module, $user_id = null, $user_name = null);
+		}
+
     function actionRecorder($module, $user_id = null, $user_name = null) {
       global $language, $PHP_SELF;
 
